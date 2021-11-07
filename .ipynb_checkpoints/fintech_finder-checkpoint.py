@@ -75,7 +75,6 @@ from typing import Any, List
 # * `generate_account`
 # * `get_balance`
 # * `send_transaction`
-from crypto_wallet import generate_account, get_balance, send_transaction   ## put them all in one line for easier use 
 
 # @TODO:
 # From `crypto_wallet.py import the functions generate_account, get_balance,
@@ -131,7 +130,8 @@ st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 
 # @TODO:
 #  Call the `generate_account` function and save it as the variable `account`
-account = generate_account()
+# YOUR CODE HERE
+
 ##########################################
 
 # Write the client's Ethereum account address to the sidebar
