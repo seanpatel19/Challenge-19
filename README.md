@@ -91,7 +91,7 @@ Please see the following to show that this is working on the Blockchain
 
 And as a Bonus we can see the statistics of the transactions on Infura
 
-![infura](https://github.com/seanpatel19/Challenge-18/blob/bc543fb11ec798be8aaaa07b042917861458499b/images/installs.png)
+![infura](https://github.com/seanpatel19/Challenge-19/blob/4c569adb7e5d7a3b9e8f36eb3d088b6e8bb5dfa1/Images/infura%20stats.png)
 
 
 
@@ -100,19 +100,46 @@ And as a Bonus we can see the statistics of the transactions on Infura
 ## Technologies
 This application is written in Python 3.7  
 
-This application uses a lot of different functions and libaries :
+This application uses a lot of different functions and libaries
 
-Pandas  https://pandas.pydata.org
+### We will start with the technologies used for mnemonic_gen.py:
+
+OS https://docs.python.org/3/library/os.html
+
+Dotenv https://www.npmjs.com/package/dotenv
+
+mnemonic https://pypi.org/project/mnemonic/
+
+BIP (44 specifically) https://pypi.org/project/bip-utils/ 
+
+Web 3 https://pypi.org/project/web3/
+
+### crypto_wallet.py: 
+
+OS https://docs.python.org/3/library/os.html
+
+Dotenv https://www.npmjs.com/package/dotenv
+
+Requests https://pypi.org/project/requests/
+
+BIP (44 specifically) https://pypi.org/project/bip-utils/ 
+
+Web 3 https://pypi.org/project/web3/
+
+
+### And finally fintech_finder.py: 
 
 dataclasses https://docs.python.org/3/library/dataclasses.html
 
 typing https://pypi.org/project/typing/
 
-hashlib https://docs.python.org/3/library/hashlib.html
-
 streamlit https://streamlit.io
 
+***Kovan Links
 
+https://faucet.kovan.network/
+
+https://gitter.im/kovan-testnet/faucet  ***back up, put in wallet address to be filled by in KETH
 
 ---
 
@@ -141,9 +168,8 @@ fintech_finder.py imports
 
 ## Usage
 
-To use the data simply clone the repository. This can also be used via Google Collab but I chose jupyter notebook 
+To use the data simply clone the repository. All code written in VSCode, and streamlit run from the command line  
 
-Different layers could be added as well ad different values of the layers 
 ```
 ---
 
