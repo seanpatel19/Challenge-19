@@ -135,11 +135,11 @@ typing https://pypi.org/project/typing/
 
 streamlit https://streamlit.io
 
-***Kovan Links
+***Kovan Links***
 
 https://faucet.kovan.network/
 
-https://gitter.im/kovan-testnet/faucet  ***back up, put in wallet address to be filled by in KETH
+https://gitter.im/kovan-testnet/faucet  ***back up site, put in wallet address to be filled in KETH***
 
 ---
 
