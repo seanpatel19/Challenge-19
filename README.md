@@ -20,11 +20,11 @@ Step 4: Review the transaction hash code associated with the validated blockchai
 
 ## Creating a Mnemonic and Getting Kovan Eth
 
-***mnemonic_gen.py should be run first if cloning the repository 
+***mnemonic_gen.py should be run first if cloning the repository*** 
 
 I created another file called mnemonic_gen.py to create a nmemonic phrase to generate a key from. 
 
-This was done earlier in the lessions for Module 19, but I added this file to the challenge to make everything easier and have Challenge 19 be standalone from the repository.
+This was done earlier in the lessons for Module 19, but I added this file to the challenge to make everything easier and have Challenge 19 be standalone from the repository.
 
 After a hash has been created from the mnemonic we need some Ethereum. To accomplish this we used the Kovan Testnet in Infura, and got some Kovan Eth from the KETH faucet. 
 
