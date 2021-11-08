@@ -20,7 +20,7 @@ Step 4: Review the transaction hash code associated with the validated blockchai
 
 ## Creating a Mnemonic and Getting Kovan Eth
 
-### mnemonic_gen.py should be run first if cloning the repository ###
+***mnemonic_gen.py should be run first if cloning the repository 
 
 I created another file called mnemonic_gen.py to create a nmemonic phrase to generate a key from. 
 
